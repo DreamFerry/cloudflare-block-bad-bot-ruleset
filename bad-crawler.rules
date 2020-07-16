@@ -3,7 +3,8 @@
 (http.user_agent contains "admantx") or
 (http.user_agent contains "aipbot") or
 (http.user_agent contains "AllSubmitter") or
-(http.user_agent contains "Backlink") or (http.user_agent contains "backlink") or
+(http.user_agent contains "Backlink") or 
+(http.user_agent contains "backlink") or
 (http.user_agent contains "Badass") or
 (http.user_agent contains "Bigfoot") or
 (http.user_agent contains "blexbot") or
@@ -16,11 +17,17 @@
 (http.user_agent contains "CrazyWebCrawler") or
 (http.user_agent contains "Crescent") or
 (http.user_agent contains "Devil") or
-((lower(http.user_agent) contains "domain") and ((http.user_agent contains "spider") or (http.user_agent contains "stat") or (http.user_agent contains "Appender") or (http.user_agent contains "Crawler"))) or
+(http.user_agent contains "domain" and http.user_agent contains "spider") or 
+(http.user_agent contains "domain" and http.user_agent contains "stat") or 
+(http.user_agent contains "domain" and http.user_agent contains "Appender") or 
+(http.user_agent contains "domain" and http.user_agent contains "Crawler") or
 (http.user_agent contains "DittoSpyder") or
 (http.user_agent contains "Konqueror") or
-(http.user_agent contains "Easou") or (http.user_agent contains "Yisou") or (http.user_agent contains "Etao") or
-(http.user_agent contains "mail" and ((http.user_agent contains "olf") or (http.user_agent contains "spider"))) or
+(http.user_agent contains "Easou") or 
+(http.user_agent contains "Yisou") or 
+(http.user_agent contains "Etao") or
+(http.user_agent contains "mail" and http.user_agent contains "olf") or 
+(http.user_agent contains "mail" and http.user_agent contains "spider") or
 (http.user_agent contains "exabot.com") or
 (http.user_agent contains "getintent") or
 (http.user_agent contains "Grabber") or
@@ -30,7 +37,7 @@
 (http.user_agent contains "htmlparser") or
 (http.user_agent contains "hubspot") or
 (http.user_agent contains "Jyxobot") or
-(lower(http.user_agent) contains "kraken") or
+(http.user_agent contains "kraken") or
 (http.user_agent contains "larbin") or
 (http.user_agent contains "ltx71") or
 (http.user_agent contains "leiki") or
@@ -54,7 +61,9 @@
 (http.user_agent contains "probethenet") or
 (http.user_agent contains "proximic") or
 (http.user_agent contains "psbot") or
-(http.user_agent contains "RankActive") or (http.user_agent contains "RankingBot") or (http.user_agent contains "RankurBot") or
+(http.user_agent contains "RankActive") or 
+(http.user_agent contains "RankingBot") or 
+(http.user_agent contains "RankurBot") or
 (http.user_agent contains "Reaper") or
 (http.user_agent contains "SalesIntelligent") or
 (http.user_agent contains "Semrush") or
