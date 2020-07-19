@@ -69,7 +69,6 @@
 (ip.geoip.asnum eq 12076) or 
 (ip.geoip.asnum eq 8071) or 
 (ip.geoip.asnum eq 61577) or 
-(ip.geoip.asnum eq 4816) or 
 (ip.geoip.asnum eq 23468) or 
 (ip.geoip.asnum eq 16509) or 
 (ip.geoip.asnum eq 394699) or 
@@ -105,6 +104,5 @@
 (ip.geoip.asnum eq 45139) or 
 (ip.geoip.asnum eq 793) or 
 (ip.geoip.asnum eq 263022) or 
-(ip.geoip.asnum eq 23724) or 
 (ip.geoip.asnum eq 36492) or 
 (ip.geoip.asnum eq 37963)
