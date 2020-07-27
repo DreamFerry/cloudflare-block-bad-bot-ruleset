@@ -8,4 +8,5 @@
 (http.user_agent contains "Slackbot") or
 (http.user_agent contains "TwitterBot") or
 (http.user_agent contains "ia_archive") or
-(http.user_agent contains "yahoo")
+(http.user_agent contains "yahoo") or
+(http.user_agent contains "YisouSpider")
