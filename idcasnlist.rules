@@ -1,108 +1,165 @@
-(ip.geoip.asnum eq 792) or 
-(ip.geoip.asnum eq 793) or 
-(ip.geoip.asnum eq 794) or 
-(ip.geoip.asnum eq 1215) or 
-(ip.geoip.asnum eq 1216) or 
-(ip.geoip.asnum eq 1217) or 
-(ip.geoip.asnum eq 3457) or 
-(ip.geoip.asnum eq 3598) or 
-(ip.geoip.asnum eq 4184) or 
-(ip.geoip.asnum eq 4835) or 
-(ip.geoip.asnum eq 6584) or 
-(ip.geoip.asnum eq 7224) or 
-(ip.geoip.asnum eq 8068) or 
-(ip.geoip.asnum eq 8069) or 
-(ip.geoip.asnum eq 8070) or 
-(ip.geoip.asnum eq 8071) or 
-(ip.geoip.asnum eq 8074) or 
-(ip.geoip.asnum eq 8075) or 
-(ip.geoip.asnum eq 8987) or 
-(ip.geoip.asnum eq 9984) or 
-(ip.geoip.asnum eq 10453) or 
-(ip.geoip.asnum eq 12076) or 
-(ip.geoip.asnum eq 13658) or 
-(ip.geoip.asnum eq 14618) or 
-(ip.geoip.asnum eq 15169) or 
-(ip.geoip.asnum eq 16276) or 
-(ip.geoip.asnum eq 16509) or 
-(ip.geoip.asnum eq 16591) or 
-(ip.geoip.asnum eq 17043) or 
-(ip.geoip.asnum eq 18599) or 
-(ip.geoip.asnum eq 19527) or 
-(ip.geoip.asnum eq 20554) or 
-(ip.geoip.asnum eq 21704) or 
-(ip.geoip.asnum eq 23468) or 
-(ip.geoip.asnum eq 23885) or 
-(ip.geoip.asnum eq 24192) or 
-(ip.geoip.asnum eq 24424) or 
-(ip.geoip.asnum eq 25697) or 
-(ip.geoip.asnum eq 26160) or 
-(ip.geoip.asnum eq 31122) or 
-(ip.geoip.asnum eq 31235) or 
-(ip.geoip.asnum eq 31898) or 
-(ip.geoip.asnum eq 32613) or 
-(ip.geoip.asnum eq 35070) or 
-(ip.geoip.asnum eq 35540) or 
-(ip.geoip.asnum eq 35593) or 
-(ip.geoip.asnum eq 36384) or 
-(ip.geoip.asnum eq 36385) or 
-(ip.geoip.asnum eq 36492) or 
-(ip.geoip.asnum eq 36806) or 
-(ip.geoip.asnum eq 37963) or 
-(ip.geoip.asnum eq 38365) or 
-(ip.geoip.asnum eq 38538) or 
-(ip.geoip.asnum eq 38627) or 
-(ip.geoip.asnum eq 41264) or 
-(ip.geoip.asnum eq 43989) or 
-(ip.geoip.asnum eq 45090) or 
-(ip.geoip.asnum eq 45102) or 
-(ip.geoip.asnum eq 45139) or 
-(ip.geoip.asnum eq 45566) or 
-(ip.geoip.asnum eq 47927) or 
-(ip.geoip.asnum eq 48337) or 
-(ip.geoip.asnum eq 48905) or 
-(ip.geoip.asnum eq 54463) or 
-(ip.geoip.asnum eq 54854) or 
-(ip.geoip.asnum eq 55924) or 
-(ip.geoip.asnum eq 55967) or 
-(ip.geoip.asnum eq 55990) or 
-(ip.geoip.asnum eq 55992) or 
-(ip.geoip.asnum eq 54994) or 
-(ip.geoip.asnum eq 56005) or 
-(ip.geoip.asnum eq 58466) or 
-(ip.geoip.asnum eq 58519) or 
-(ip.geoip.asnum eq 58563) or 
-(ip.geoip.asnum eq 58862) or 
-(ip.geoip.asnum eq 59019) or 
-(ip.geoip.asnum eq 59067) or 
-(ip.geoip.asnum eq 61577) or 
-(ip.geoip.asnum eq 62785) or 
-(ip.geoip.asnum eq 63075) or 
-(ip.geoip.asnum eq 63314) or 
-(ip.geoip.asnum eq 63949) or 
-(ip.geoip.asnum eq 64050) or 
-(ip.geoip.asnum eq 131444) or 
-(ip.geoip.asnum eq 131486) or 
-(ip.geoip.asnum eq 132203) or 
-(ip.geoip.asnum eq 132509) or 
-(ip.geoip.asnum eq 132591) or 
-(ip.geoip.asnum eq 134238) or 
-(ip.geoip.asnum eq 134418) or 
-(ip.geoip.asnum eq 134649) or 
-(ip.geoip.asnum eq 134756) or 
-(ip.geoip.asnum eq 134763) or 
-(ip.geoip.asnum eq 134764) or 
-(ip.geoip.asnum eq 136959) or 
-(ip.geoip.asnum eq 136970) or 
-(ip.geoip.asnum eq 137280) or 
-(ip.geoip.asnum eq 202053) or 
-(ip.geoip.asnum eq 202675) or 
-(ip.geoip.asnum eq 204720) or 
-(ip.geoip.asnum eq 263022) or 
-(ip.geoip.asnum eq 263639) or 
-(ip.geoip.asnum eq 264344) or 
-(ip.geoip.asnum eq 264509) or 
-(ip.geoip.asnum eq 265443) or 
-(ip.geoip.asnum eq 394699) or 
-(ip.geoip.asnum eq 395936) or 
-(ip.geoip.asnum eq 395973)
+AS792
+AS793
+AS794
+AS1215
+AS1216
+AS1217
+AS3457
+AS3598
+AS4184
+AS4816
+AS4835
+AS6584
+AS7224
+AS8068
+AS8069
+AS8070
+AS8071
+AS8074
+AS8075
+AS8987
+AS9984
+AS10453
+AS12076
+AS13658
+AS14618
+AS15169
+AS16276
+AS16509
+AS16591
+AS17043
+AS17428
+AS18599
+AS19527
+AS20554
+AS21704
+AS23468
+AS23724
+AS23885
+AS24192
+AS24424
+AS24429
+AS25697
+AS26160
+AS31122
+AS31235
+AS31898
+AS32613
+AS35070
+AS35540
+AS35593
+AS36384
+AS36385
+AS36492
+AS36806
+AS37963
+AS37969
+AS38283
+AS38365
+AS38538
+AS38587
+AS38627
+AS41264
+AS43989
+AS45062
+AS45090
+AS45102
+AS45139
+AS45566
+AS47927
+AS48337
+AS48905
+AS54463
+AS54854
+AS55924
+AS55967
+AS55990
+AS55992
+AS54994
+AS56005
+AS56011
+AS58461
+AS58466
+AS58519
+AS58563
+AS58593
+AS58844
+AS58854
+AS58862
+AS59019
+AS59048
+AS59050
+AS59067
+AS59077
+AS61577
+AS62785
+AS63075
+AS63314
+AS63545
+AS63612
+AS63631
+AS63655
+AS63677
+AS63678
+AS63679
+AS63835
+AS63838
+AS63949
+AS64050
+AS131444
+AS131486
+AS131495
+AS132203
+AS132509
+AS132591
+AS133492
+AS133774
+AS133775
+AS133776
+AS134238
+AS134417
+AS134418
+AS134420
+AS134543
+AS134649
+AS134756
+AS134763
+AS134764
+AS134769
+AS134771
+AS135061
+AS135629
+AS136160
+AS136188
+AS136190
+AS136958
+AS136959
+AS136970
+AS137218
+AS137280
+AS137539
+AS137693
+AS137697
+AS137699
+AS137784
+AS137785
+AS137788
+AS138407
+AS138950
+AS138952
+AS139007
+AS139018
+AS139201
+AS139203
+AS139220
+AS202053
+AS202675
+AS204720
+AS263022
+AS263639
+AS264344
+AS264509
+AS265443
+AS394699
+AS395936
+AS395973

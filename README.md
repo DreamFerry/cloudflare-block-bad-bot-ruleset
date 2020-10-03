@@ -34,7 +34,9 @@ Bad Crawler | [bad-crawler.rules](./bad-crawler.rules) | Block/Challenge | Match
 
 ## Usage 用法
 
-![](https://i.loli.net/2018/10/30/5bd801833e8d3.png)
+![](https://i.loli.net/2018/10/30/5bd801833e8d3.png) 
+
+ASN规则可在防火墙→工具→IP访问规则处添加，不占用宝贵的可使用规则条数。
 
 ## More Information 更多详情
 
