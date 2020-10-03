@@ -1,12 +1,1 @@
-(cf.client.bot) or
-(http.user_agent contains "duckduckgo") or
-(http.user_agent contains "facebookexternalhit") or
-(http.user_agent contains "Feedfetcher-Google") or
-(http.user_agent contains "LinkedInBot") or
-(http.user_agent contains "Mediapartners-Google") or
-(http.user_agent contains "msnbot") or
-(http.user_agent contains "Slackbot") or
-(http.user_agent contains "TwitterBot") or
-(http.user_agent contains "ia_archive") or
-(http.user_agent contains "yahoo") or
-(http.user_agent contains "YisouSpider")
+(cf.client.bot)
