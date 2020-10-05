@@ -1,4 +1,1 @@
-(cf.client.bot) or 
-(http.user_agent contains "Googlebot") or 
-(http.user_agent contains "Baiduspider") or 
-(http.user_agent contains "Sogou")
+(cf.client.bot)
