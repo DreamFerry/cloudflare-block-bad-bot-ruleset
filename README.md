@@ -52,4 +52,4 @@ ASN规则可在防火墙→工具→IP访问规则处添加，不占用宝贵的
 
 ## Maintainer 维护者
 
-**Cloudflare Block Bad Bot Ruleset** © [Sukka](https://github.com/SukkaW), Released under the [MIT](./LICENSE) License.
+**Cloudflare Block Bad Bot Ruleset** Made By [Sukka](https://github.com/SukkaW) Modified By [Dumeng](https://github.com/XMD0718), Released under the [MIT](./LICENSE) License.
