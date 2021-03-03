@@ -1,12 +1,7 @@
 <p align="center">
-<img src="https://i.loli.net/2018/10/30/5bd7b06b077df.png" width="200px">
+<img src="https://cdn.jsdelivr.net/gh/XMD0718/dumeng-blog/wp-content/uploads/2021/03/5bd7b06b077df.png" width="200px">
 </p>
 <h1 align="center">Cloudflare Block Bad Bot Ruleset</h1>
-
-<p align="center">
-<a href="https://github.com/SukkaW" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square"/></a>
-<a href="./LICENSE" target="_blank"><img alt="License" src="https://img.shields.io/github/license/sukkaw/cloudflare-block-bad-bot-rules.svg?style=flat-square"/></a>
-</p>
 
 > Block bad, possibly even malicious web crawlers (automated bots) using Cloudflare Firewall Rules<br>
 > 使用 Cloudflare Firewall Rules 拦截恶意网络爬虫（自动机器人）和其它恶意流量
@@ -34,7 +29,7 @@ Bad Crawler | [bad-crawler.rules](./bad-crawler.rules) | Block/Challenge | Match
 
 ## Usage 用法
 
-![](https://i.loli.net/2018/10/30/5bd801833e8d3.png) 
+![](https://cdn.jsdelivr.net/gh/XMD0718/dumeng-blog/wp-content/uploads/2021/03/5bd801833e8d3.png) 
 
 ASN规则可在防火墙→工具→IP访问规则处添加，不占用宝贵的可使用规则条数。
 
@@ -45,11 +40,6 @@ ASN规则可在防火墙→工具→IP访问规则处添加，不占用宝贵的
 - [nginx-badbot-blocker | GitHub](https://github.com/mariusv/nginx-badbot-blocker)
 - [nginx-ultimate-bad-bot-blocker | GitHub](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
 
-## Todo List
-
-- [ ] Bad referrer list
-- [ ] Known bad IP List
-
 ## Maintainer 维护者
 
-**Cloudflare Block Bad Bot Ruleset** Made By [Sukka](https://github.com/SukkaW) Modified By [Dumeng](https://github.com/XMD0718), Released under the [MIT](./LICENSE) License.
+**Cloudflare Block Bad Bot Ruleset** Made By [Sukka](https://github.com/SukkaW) Modified By [Dumeng](https://github.com/XMD0718), Released under the [GPL](./LICENSE) License.
