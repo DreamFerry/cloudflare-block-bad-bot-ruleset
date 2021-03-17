@@ -31,4 +31,5 @@
 (http.user_agent contains "fimap") or
 (http.user_agent contains "ZmEu") or
 (http.user_agent contains "ZumBot") or
-(http.user_agent contains "Zyborg")
+(http.user_agent contains "Zyborg") or
+(http.user_agent eq "undefined")
