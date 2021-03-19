@@ -32,4 +32,5 @@
 (http.user_agent contains "ZmEu") or
 (http.user_agent contains "ZumBot") or
 (http.user_agent contains "Zyborg") or
+(http.user_agent contains "attachment") or
 (http.user_agent eq "undefined")
