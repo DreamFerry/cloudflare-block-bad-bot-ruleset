@@ -31,7 +31,7 @@ Bad Crawler | [bad-crawler.rules](./bad-crawler.rules) | Block/Challenge | Match
 
 ![](https://cdn.jsdelivr.net/gh/XMD0718/dumeng-blog/wp-content/uploads/2021/03/5bd801833e8d3.png) 
 
-ASN规则可在防火墙→工具→IP访问规则处添加，不占用宝贵的可使用规则条数。
+ASN规则可在防火墙→工具→IP访问规则处或使用第三方面板批量添加，不占用宝贵的规则配额。
 
 ## More Information 更多详情
 
