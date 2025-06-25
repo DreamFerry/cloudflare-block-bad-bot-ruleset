@@ -38,4 +38,4 @@ Rule Name                                           | Action               | Wha
 
 ## Maintainer 维护者
 
-**Cloudflare Block Bad Bot Ruleset** Made By [Sukka](https://github.com/SukkaW) Modified By [Dumeng](https://github.com/XMD0718), Released under the [GPL](./LICENSE) License.
+**Cloudflare Block Bad Bot Ruleset** Made By [Sukka](https://github.com/SukkaW) Modified By [DreamFerry](https://github.com/DreamFerry), Released under the [GPL](./LICENSE) License.
