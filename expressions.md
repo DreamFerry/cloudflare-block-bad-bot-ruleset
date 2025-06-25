@@ -1,10 +1,10 @@
-## 🔥 Part 1 - Allow Legitimate Services<div id="part1"></div>
+## Part 1 - Allow Legitimate Services<div id="part1"></div>
 > **Action:** Skip
 ```
 (cf.client.bot)
 ```
 
-## 🔥 Part 2 - Block Malicious Traffic & Exploit Probes<div id="part2"></div>
+## Part 2 - Block Malicious Traffic & Exploit Probes<div id="part2"></div>
 > **Action:** Block
 ```
 (http.user_agent contains "HeadlessChrome") or 
@@ -71,7 +71,7 @@
 (http.request.uri.path contains "/.bzr")
 ```
 
-## 🗑️ Part 3 - Block Known Bad ASNs<div id="part3"></div>
+## Part 3 - Block Known Bad ASNs<div id="part3"></div>
 > **Action:** Block
 ```
 (ip.geoip.asnum in {
@@ -86,7 +86,7 @@
 })
 ```
 
-## 🤖 Part 4 - Strict Rule<div id="part4"></div>
+## Part 4 - Strict Rule<div id="part4"></div>
 > **Action:** Managed Challenge
 ```
 (not ip.geoip.country in {"CN" "HK" "JP" "SG" "US" "KR"}) or 
