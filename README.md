@@ -20,25 +20,21 @@
 
 ## Ruleset 规则
 
-Rule Name | File Name | Action | What For
----- | ---- | ---- | ----
-Good Bot | [good-bot.rules](./good-bot.rules) | Allow | Match known good bot.<br>匹配已知的正常爬虫
-IDC ASN List | [idcasnlist.rules](./idcasnlist.rules) | JS Challenge | Based on known partial IDC ASN number.<br>基于已知的部分IDC ASN号（包含阿里云盾）
-Basic Crawler | [basic-crawler.rules](./basic-crawler.rules) | Block/Challenge | Block some known bad bot.<br>匹配一些基本的 HTTP Request 库
-Bad Crawler | [bad-crawler.rules](./bad-crawler.rules) | Block/Challenge | Match mostly known bad bot, basic ruleset not included.<br>匹配绝大部分已知的恶意爬虫
-
-## Usage 用法
-
-![](https://cdn.jsdelivr.net/gh/XMD0718/dumeng-blog/wp-content/uploads/2021/03/5bd801833e8d3.png) 
-
-ASN规则可在安全性->WAF->工具->IP访问规则处添加，不占用宝贵的规则配额。
+Rule Name                                           | Action               | What For
+--------------------------------------------------- | -------------------- | ---------------------------------------------------
+[Allow Legitimate Services](./expressions.md#part1) | Skip                 | Match known good bot.<br>匹配已知的正常爬虫
+[Block Malicious Traffic](./expressions.md#part2)   | Block                | Block some known bad bot.<br>阻挡一些已知的恶意代理和漏洞探测
+[Block Known Bad ASNs](./expressions.md#part3)      | Block                | Based on known bad ASN numbe.<br>匹配一些已知的恶意ASN号（AbuseIPDB）
+[Strict Rule](./expressions.md#part4)               | Managed Challenge    | Strict rules, but there may be false positives.<br>严格的规则，但可能会有误报
 
 ## More Information 更多详情
 
 - [Announcing Firewall Rules | Cloudflare Blog](https://blog.cloudflare.com/announcing-firewall-rules/)
-- [Cloudflare Firewall Rules | Cloudflare Documentations](https://developers.cloudflare.com/firewall/)
+- [Cloudflare Firewall Rules | Cloudflare Documentations](https://developers.cloudflare.com/waf/)
 - [nginx-badbot-blocker | GitHub](https://github.com/mariusv/nginx-badbot-blocker)
 - [nginx-ultimate-bad-bot-blocker | GitHub](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+- [Cloudflare-WAF-Expressions | GitHub](https://github.com/sefinek/Cloudflare-WAF-Expressions)
+- [cloudflare_waf_multi_zone_ci_exmaple | GitHub](https://github.com/homieyangg/cloudflare_waf_multi_zone_ci_exmaple)
 
 ## Maintainer 维护者
 
