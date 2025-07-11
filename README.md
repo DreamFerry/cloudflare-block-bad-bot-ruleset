@@ -24,8 +24,8 @@ Rule Name                                           | Action               | Wha
 --------------------------------------------------- | -------------------- | ---------------------------------------------------
 [Allow Legitimate Services](./expressions.md#part1) | Skip                 | Match known good bot.<br>匹配已知的正常爬虫
 [Block Malicious Traffic](./expressions.md#part2)   | Block                | Block some known bad bot.<br>阻挡一些已知的恶意代理和漏洞探测
-[Block Known Bad ASNs](./expressions.md#part3)      | Block                | Based on known bad ASN numbe.<br>匹配一些已知的恶意ASN号（AbuseIPDB）
-[Strict Rule](./expressions.md#part4)               | Managed Challenge    | Strict rules, but there may be false positives.<br>严格的规则，但可能会有误报
+[Block Known Bad ASNs](./expressions.md#part3)      | Block                | Based on known bad ASN numbe.<br>匹配一些已知的恶意ASN号
+[Strict Rule](./expressions.md#part4)               | Challenge            | Strict rules, but there may be false positives.<br>严格的规则，但可能会有误报
 
 ## More Information 更多详情
 
